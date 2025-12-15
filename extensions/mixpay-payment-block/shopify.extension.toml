@@ -1,0 +1,20 @@
+api_version = "2025-07"
+
+[[extensions]]
+name = "mixpay-payment-block"
+handle = "mixpay-payment-block"
+type = "ui_extension"
+uid = "504cfe78-2080-ecf8-a9f0-2ab12eab67917f5c9f69"
+
+[[extensions.targeting]]
+module = "./src/Checkout.jsx"
+target = "purchase.thank-you.block.render"
+
+[[extensions.targeting]]
+module = "./src/Checkout.jsx"
+target = "customer-account.order-status.block.render"
+
+[extensions.capabilities]
+api_access = true
+network_access = true
+
