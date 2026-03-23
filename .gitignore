@@ -21,7 +21,7 @@ extensions/*/dist
 
 # lock files
 
-
+shopify.app.toml
 
 
 # Ignore shopify files created during app dev
